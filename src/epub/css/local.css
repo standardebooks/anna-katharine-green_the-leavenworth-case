@@ -48,7 +48,7 @@ i [epub|type~="z3998:persona"]{
 }
 /* end drama */
 
-/* All epigraphs */
+/* All EPIGRAPHS */
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
@@ -101,6 +101,40 @@ section > header [epub|type~="epigraph"] + *{
 }
 /* End epigraphs in section headers */
 
+/* Begin LETTER styles */
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+header > [epub|type~="z3998:salutation"],
+header > [epub|type~="z3998:recipient"]{
+	text-align: initial;
+}
+
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
+/* end letters */
+
 /* Begin VERSE styles */
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
@@ -137,3 +171,29 @@ p span.i7{
 	text-indent: -1em;
 }
 /* end verse */
+
+/* BESPOKE rules begin */
+#chapter-10 > blockquote:first-of-type,
+#chapter-12 > blockquote{
+	font-variant: small-caps;
+	text-align: center;
+}
+
+#chapter-10 > blockquote:first-of-type p:first-of-type,
+#chapter-12 > blockquote p:first-of-type{
+	font-size: larger;
+	text-transform: uppercase;
+}
+
+#chapter-10 > blockquote:first-of-type p ~ p::before,
+#chapter-12 > blockquote p ~ p::before{
+	border: none;
+	border-top: 1px solid;
+	content: "";
+	display: block;
+	height: 0;
+	margin: 1.5em auto;
+	width: 25%;
+}
+
+/* bespoke rules end */
