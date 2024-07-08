@@ -196,4 +196,8 @@ p span.i7{
 	width: 25%;
 }
 
+#chapter-22 ol{
+	list-style-type: upper-roman;
+}
+
 /* bespoke rules end */
