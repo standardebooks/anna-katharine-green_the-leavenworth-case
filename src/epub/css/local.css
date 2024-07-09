@@ -173,6 +173,10 @@ p span.i7{
 /* end verse */
 
 /* BESPOKE rules begin */
+figure img{
+	max-height: 30vh;
+}
+
 #chapter-10 > blockquote:first-of-type,
 #chapter-12 > blockquote{
 	font-variant: small-caps;
