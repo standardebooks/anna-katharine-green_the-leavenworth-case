@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 38">
-	<title>A plan of the upper floor, showing a rectangle with stairs indicated in the mid-bottom, and a cross marked in the room at the mid-top.</title>
-	<path d="m 38.771436,41.908578 h -9.445715 m 9.445715,-1.691382 H 29.325721 M 40.813444,32.26624 v 6.316111 m 2.116668,-6.316111 v 6.316111 M 45.04678,32.26624 v 6.316111 m 2.116668,-6.316111 v 6.316111 H 29.325721 m 9.445715,-6.316111 v 11.324379 m 12.779187,-7.620211 v 7.620211 m 0,-35.3452043 V 15.193856 M 29.325721,8.2454144 v 6.9484416 m 22.217568,8.228399 H 29.297351 m 22.245938,8.752053 -22.245938,0.09193 m 0.02837,-2.853181 V 43.727277 M 51.550723,17.402813 V 33.347088 M 29.325721,17.402813 V 27.3231 m 47.840335,6.402209 V 8.1358761 H 10.099232 l -0.042,35.5763959 h 67.118394 v -3.184763" fill="none" stroke="#000" stroke-width=".794" transform="translate(-9.22 -7.403)"/>
-	<path aria-label="+" d="m 40.207134,12.779634 v 1.682585 h 1.686374 v 0.644233 h -1.686374 v 1.682584 H 39.57048 v -1.682584 h -1.682584 v -0.644233 h 1.682584 v -1.682585 z" transform="translate(-9 -7)"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1"  viewBox="0 0 70 38">
+<title>A plan of the upper floor, showing a rectangle with stairs indicated in the mid-bottom, and a cross marked in the room at the mid-top.</title>
+  <g>
+    <path d="m29.112 34.17h-9.4457m9.4457-1.6914h-9.4457m11.488-7.951v6.3161m2.1167-6.3161v6.3161m2.1167-6.3161v6.3161m2.1167-6.3161v6.3161h-17.838m9.4457-6.3161v11.324m12.779-7.6202v7.6202m0-35.345v6.9484m-22.225-6.9484v6.9484m22.218 8.2284h-22.246m22.246 8.7521-22.246 0.09193m0.02837-2.8532v14.314m22.225-26.324v15.944m-22.225-15.944v9.9203m47.84 6.4022v-25.589h-67.067l-0.042 35.576h67.118v-3.1848" fill="none" stroke="#000" stroke-width=".794"/>
+    <path aria-label="+" d="m 30.913768,6.4639909 v 1.6826 h 1.6864 v 0.64423 h -1.6864 v 1.6826001 h -0.63665 V 8.7908209 h -1.6826 v -0.64423 h 1.6826 v -1.6826 z"/>
+  </g>
 </svg>
