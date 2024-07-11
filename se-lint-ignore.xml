@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-22.xhtml">
+		<ignore>
+			<code>s-010</code>
+			<reason>The div element represents a full-width-of-page line in a document extract; not a thematic break.</reason>
+		</ignore>
+		<ignore>
+			<code>t-001</code>
+			<reason>Double spaces required to represent elided words in a very broken letter.</reason>
+		</ignore>
+		<ignore>
+			<code>t-029</code>
+			<reason>Lower case letter follows break/elision after sentence boundary.</reason>
+		</ignore>
+		<ignore>
+			<code>t-011</code>
+			<reason>Punctuation missing in broken letter context.</reason>
+		</ignore>
+		<ignore>
+			<code>t-014</code>
+			<reason>Multiple em-dashes used to pad length of elision in broken letter context.</reason>
+		</ignore>
+		<ignore>
+			<code>y-003</code>
+			<reason>Text breaks off in broken context, so no full-stop.</reason>
+		</ignore>
+	</file>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>s-041</code>
+			<reason>LoI entry matches ALT text rather than figcaption text which is not appropriate for identifying image.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
