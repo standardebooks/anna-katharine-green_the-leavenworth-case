@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1"  viewBox="0 0 70 38">
-<title>A plan of the upper floor, showing a rectangle with stairs indicated in the mid-bottom, and a cross marked in the room at the mid-top.</title>
-  <g>
-    <path d="m29.112 34.17h-9.4457m9.4457-1.6914h-9.4457m11.488-7.951v6.3161m2.1167-6.3161v6.3161m2.1167-6.3161v6.3161m2.1167-6.3161v6.3161h-17.838m9.4457-6.3161v11.324m12.779-7.6202v7.6202m0-35.345v6.9484m-22.225-6.9484v6.9484m22.218 8.2284h-22.246m22.246 8.7521-22.246 0.09193m0.02837-2.8532v14.314m22.225-26.324v15.944m-22.225-15.944v9.9203m47.84 6.4022v-25.589h-67.067l-0.042 35.576h67.118v-3.1848" fill="none" stroke="#000" stroke-width=".794"/>
-    <path aria-label="+" d="m 30.913768,6.4639909 v 1.6826 h 1.6864 v 0.64423 h -1.6864 v 1.6826001 h -0.63665 V 8.7908209 h -1.6826 v -0.64423 h 1.6826 v -1.6826 z"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 70 38">
+	<title>A plan of the upper floor, showing a rectangle with stairs indicated in the mid-bottom, and a cross marked in the room at the mid-top.</title>
+	<g>
+		<path d="m29.112 34.17h-9.4457m9.4457-1.6914h-9.4457m11.488-7.951v6.3161m2.1167-6.3161v6.3161m2.1167-6.3161v6.3161m2.1167-6.3161v6.3161h-17.838m9.4457-6.3161v11.324m12.779-7.6202v7.6202m0-35.345v6.9484m-22.225-6.9484v6.9484m22.218 8.2284h-22.246m22.246 8.7521-22.246 0.09193m0.02837-2.8532v14.314m22.225-26.324v15.944m-22.225-15.944v9.9203m47.84 6.4022v-25.589h-67.067l-0.042 35.576h67.118v-3.1848" fill="none" stroke="#000" stroke-width=".794"/>
+		<path aria-label="+" d="m 30.913768,6.4639909 v 1.6826 h 1.6864 v 0.64423 h -1.6864 v 1.6826001 h -0.63665 V 8.7908209 h -1.6826 v -0.64423 h 1.6826 v -1.6826 z"/>
+	</g>
 </svg>
