@@ -2,7 +2,6 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* Begin DRAMA */
-[epub|type~="z3998:drama"] table,
 table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
 	margin: 1em auto;
@@ -36,16 +35,6 @@ table[epub|type~="z3998:drama"]{
 	text-align: right;
 	width: 20%;
 }
-
-[epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
-i [epub|type~="z3998:persona"]{
-	font-style: normal;
-}
-
-[epub|type~="z3998:persona"]{
-	font-variant: all-small-caps;
-}
 /* end drama */
 
 /* All EPIGRAPHS */
@@ -72,6 +61,7 @@ i [epub|type~="z3998:persona"]{
 
 [epub|type~="epigraph"] [epub|type~="z3998:persona"]{
 	font-style: normal;
+	font-variant: all-small-caps;
 }
 
 header [epub|type~="epigraph"] cite{
@@ -80,7 +70,6 @@ header [epub|type~="epigraph"] cite{
 /* End all epigraphs */
 
 /* Epigraphs in section headers */
-article > header [epub|type~="epigraph"],
 section > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
@@ -88,13 +77,11 @@ section > header [epub|type~="epigraph"]{
 	text-align: initial;
 }
 
-article > header [epub|type~="epigraph"] + *,
 section > header [epub|type~="epigraph"] + *{
 	margin-top: 3em;
 }
 
 @supports(display: table){
-	article > header [epub|type~="epigraph"],
 	section > header [epub|type~="epigraph"]{
 		display: table;
 	}
@@ -111,7 +98,6 @@ footer{
 	text-align: right;
 }
 
-header > [epub|type~="z3998:salutation"],
 header > [epub|type~="z3998:recipient"]{
 	text-align: initial;
 }
@@ -177,10 +163,11 @@ figure img{
 	max-height: 30vh;
 }
 
-#chapter-10 > blockquote:first-of-type,
-#chapter-12 > blockquote{
+#chapter-10 > blockquote:first-of-type p,
+#chapter-12 > blockquote p{
 	font-variant: small-caps;
 	text-align: center;
+	text-indent: 0;
 }
 
 #chapter-10 > blockquote:first-of-type p:first-of-type,
