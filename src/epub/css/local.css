@@ -88,6 +88,24 @@ section > header [epub|type~="epigraph"] + *{
 }
 /* End epigraphs in section headers */
 
+/* Begin FIGURE rules */
+figure{
+	break-inside: avoid;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figcaption{
+	font-size: .75em;
+	font-style: italic;
+	margin: 1em;
+}
+/* end figures */
+
 /* Begin LETTER styles */
 [epub|type~="z3998:letter"] header{
 	text-align: right;
@@ -159,10 +177,6 @@ p span.i7{
 /* end verse */
 
 /* BESPOKE rules begin */
-figure img{
-	max-height: 30vh;
-}
-
 #chapter-10 > blockquote:first-of-type p,
 #chapter-12 > blockquote p{
 	font-variant: small-caps;
