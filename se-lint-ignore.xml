@@ -6,10 +6,6 @@
 			<reason>The div element represents a full-width-of-page line in a document extract; not a thematic break.</reason>
 		</ignore>
 		<ignore>
-			<code>t-001</code>
-			<reason>Double spaces required to represent elided words in a very broken letter.</reason>
-		</ignore>
-		<ignore>
 			<code>t-029</code>
 			<reason>Lower case letter follows break/elision after sentence boundary.</reason>
 		</ignore>
