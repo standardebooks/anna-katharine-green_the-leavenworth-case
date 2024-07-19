@@ -60,9 +60,16 @@
 		<meta property="term" refines="#subject-7">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Mystery</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta id="collection-1" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta id="collection-2" property="belongs-to-collection">Mr. Gryce</meta>
+		<meta property="collection-type" refines="#collection-2">series</meta>
+		<meta property="group-position" refines="#collection-2">1</meta>
+		<dc:description id="description">A young New York lawyer becomes embroiled in the investigation of the mysterious murder of a wealthy man.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Horatio Leavenworth, a wealthy and widowed philanthropist, raises his two beautiful orphaned nieces, Mary and Eleanore. One of the cousins, Mary, is his designated heir. When Mr. Leavenworth is murdered in mysterious circumstances, a young lawyer is called upon to support the distraught cousins. At the coroner’s inquest it becomes clear that the perpetrator can only be a member of the household—but no positive evidence is found to incriminate anyone. As the investigating detective digs in, the lawyer, Mr. Raymond, becomes ever more deeply embroiled.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Leavenworth Case&lt;/i&gt; is the first novel by &lt;a href="https://standardebooks.org/ebooks/anna-katharine-green"&gt;Anna Katharine Green&lt;/a&gt;, and quickly became a best-seller. Among the very earliest women to write mystery novels, Green’s expert handling of legal details enhanced her reputation and contributed to this work being widely admired. “Have I read ‘The Leavenworth Case’?” &lt;a href="https://standardebooks.org/ebooks/wilkie-collins"&gt;Wilkie Collins&lt;/a&gt; wrote to Green’s American publisher, “I have read it through at one sitting.”&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Leavenworth Case&lt;/i&gt; is also notable as launching the career of a character: Ebenezer Gryce, one of the first “series” detectives. He appears in a dozen of Green’s later whodunits, making his appearance years before a more famous English counterpart, &lt;a href="https://standardebooks.org/collections/sherlock-holmes"&gt;Sherlock Holmes&lt;/a&gt;.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4047</dc:source>
@@ -79,10 +86,8 @@
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Claude Pratt</dc:contributor>
+		<meta property="file-as" refines="#artist">Pratt, Claude</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Moynihan</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Moynihan, David</meta>
