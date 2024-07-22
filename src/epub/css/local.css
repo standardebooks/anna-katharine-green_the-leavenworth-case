@@ -202,8 +202,9 @@ p span.i7{
 	width: 25%;
 }
 
-#chapter-22 blockquote:last-of-type p:nth-child(3){
-	border-bottom: 1px solid;
+#chapter-22 blockquote:last-of-type p:nth-child(4){
+	border-top: 1px solid;
+	text-indent: 0;
 }
 
 #chapter-22 ol{
