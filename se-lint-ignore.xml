@@ -6,12 +6,12 @@
 			<reason>Opening quote not repleated in broken context in scans.</reason>
 		</ignore>
 		<ignore>
-			<code>t-029</code>
-			<reason>Lower case letter follows break/elision after sentence boundary.</reason>
-		</ignore>
-		<ignore>
 			<code>t-014</code>
 			<reason>Multiple em-dashes used to pad length of elision in broken letter context.</reason>
+		</ignore>
+		<ignore>
+			<code>t-029</code>
+			<reason>Lower case letter follows break/elision after sentence boundary.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
