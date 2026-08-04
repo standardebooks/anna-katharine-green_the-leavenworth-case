@@ -66,7 +66,7 @@
 		<meta id="collection-2" property="belongs-to-collection">Mr. Gryce</meta>
 		<meta property="collection-type" refines="#collection-2">series</meta>
 		<meta property="group-position" refines="#collection-2">1</meta>
-		<dc:abstract>A young New York lawyer becomes embroiled in the investigation of the mysterious murder of a wealthy man.</dc:abstract>
+		<meta property="schema:abstract">A young New York lawyer becomes embroiled in the investigation of the mysterious murder of a wealthy man.</meta>
 		<dc:description>
 			&lt;p&gt;Horatio Leavenworth, a wealthy and widowed philanthropist, raises his two beautiful orphaned nieces, Mary and Eleanore. One of the cousins, Mary, is his designated heir. When Mr. Leavenworth is murdered in mysterious circumstances, a young lawyer is called upon to support the distraught cousins. At the coroner’s inquest it becomes clear that the perpetrator can only be a member of the household—but no positive evidence is found to incriminate anyone. As the investigating detective digs in, the lawyer, Mr. Raymond, becomes ever more deeply embroiled.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;The Leavenworth Case&lt;/i&gt; is &lt;a href="https://standardebooks.org/ebooks/anna-katharine-green"&gt;Anna Katharine Green’s&lt;/a&gt; first novel, and quickly became a best-seller. Among the very earliest women to write mystery novels, Green’s expert handling of legal details enhanced her reputation and contributed to this novel being widely admired. “Have I read &lt;i&gt;The Leavenworth Case&lt;/i&gt;?” &lt;a href="https://standardebooks.org/ebooks/wilkie-collins"&gt;Wilkie Collins&lt;/a&gt; wrote to Green’s American publisher, “I have read it through at one sitting.”&lt;/p&gt;
