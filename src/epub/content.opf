@@ -75,7 +75,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4047</dc:source>
 		<dc:source>https://archive.org/details/leavenworthcase00greerich</dc:source>
-		<meta property="schema:wordCount">110728</meta>
+		<meta property="schema:wordCount">110719</meta>
 		<meta property="schema:educationalLevel">71.04</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Leavenworth_Case" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
